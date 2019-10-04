@@ -1,15 +1,5 @@
 # Create a JavaScript Action using TypeScript
 
-Use this template to bootstrap the creation of a JavaScript action.:rocket:
-
-This template includes compilication support, tests, a validation workflow, publishing, and versioning guidance.  
-
-If you are new, there's also a simpler introduction.  See the [Hello World JavaScript Action](https://github.com/actions/hello-world-javascript-action)
-
-## Create an action from this template
-
-Click the `Use this Template` and provide the new repo details for your action
-
 ## Code in Master
 
 Install the dependencies  
@@ -95,7 +85,7 @@ See the [versioning documentation](https://github.com/actions/toolkit/blob/maste
 You can now validate the action by referencing the releases/v1 branch
 
 ```yaml
-uses: actions/typescript-action@releases/v1
+uses: storybookjs/action@releases/v1
 with:
   milliseconds: 1000
 ```
@@ -107,7 +97,7 @@ See the [actions tab](https://github.com/actions/javascript-action/actions) for 
 After testing you can [create a v1 tag](https://github.com/actions/toolkit/blob/master/docs/action-versioning.md) to reference the stable and tested action
 
 ```yaml
-uses: actions/typescript-action@v1
+uses: storybookjs/action@v1
 with:
   milliseconds: 1000
 ```
